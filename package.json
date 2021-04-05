@@ -1,6 +1,6 @@
 {
   "name": "juicycss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A minimalistic CSS library",
   "main": "index.css",
   "scripts": {
