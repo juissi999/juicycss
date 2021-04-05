@@ -12,7 +12,11 @@ Import CSS by adding the following line to your index.js file:
 
 `import 'juicycss/index.css'`
 
+Add classes to your DOM elements.
+
 ## Features
 This library adds CSS classes. Currently it has classes
 
 * container
+* pointer
+* my-x, ml-x, mr-x (margin)
