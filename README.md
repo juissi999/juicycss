@@ -1,4 +1,4 @@
-# juicycss
+![juicycss](juicycss.png)
 
 [![NPM Version](https://img.shields.io/npm/v/juicycss.svg)](https://www.npmjs.com/package/juicycss)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/juicycss)
