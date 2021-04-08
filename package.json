@@ -1,23 +1,23 @@
 {
-  "name": "juicycss",
-  "version": "0.0.2",
-  "description": "A minimalistic CSS library",
-  "main": "index.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/juissi999/juicycss.git"
-  },
-  "keywords": [
-    "CSS",
-    "minimalistic"
-  ],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/juissi999/juicycss/issues"
-  },
-  "homepage": "https://github.com/juissi999/juicycss#readme"
+    "name": "juicycss",
+    "version": "0.0.3",
+    "description": "A minimalistic CSS library",
+    "main": "index.css",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/juissi999/juicycss.git"
+    },
+    "keywords": [
+        "CSS",
+        "minimalistic"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/juissi999/juicycss/issues"
+    },
+    "homepage": "https://github.com/juissi999/juicycss#readme"
 }
