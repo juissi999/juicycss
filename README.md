@@ -22,4 +22,8 @@ This library adds CSS classes. Currently it has classes
 
 * container
 * pointer
-* my-x, ml-x, mr-x (margin)
+* my-x, ml-x, mr-x (margin): 1,2
+* color: red, brown, yellow, green, lightblue, blue, purple, white, dark
+* text-color: same as above
+* nonselectable
+* mw-1, mw-2 (min-width)

@@ -12,6 +12,39 @@ body {
 button, select, input, optgroup, textarea {
   font-family: inherit;
   font-size: inherit;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+select:hover, input:hover, optgroup:hover, textarea:hover {
+  border: 1px solid #616161;
+}
+
+button {
+  border: 0px;
+  /* min-width: 100px; */
+  padding: 4px 11px 4px 11px;
+}
+
+button:hover {
+  /* border: 1px solid #616161; */
+  /* padding: 4px; */
+  opacity: 0.85;
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #0099ff;
+}
+
+.nonselectable {
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .container {
@@ -25,6 +58,14 @@ button, select, input, optgroup, textarea {
 
 .pointer {
   cursor: pointer;
+}
+
+.mw-1 {
+  min-width: 100px;
+}
+
+.mw-2 {
+  min-width: 150px;
 }
 
 .my-1 {
@@ -52,6 +93,79 @@ button, select, input, optgroup, textarea {
 .mr-2 {
   margin-right: 10px;
 }
+
+.text-red {
+  color: #ff0000;
+}
+
+.text-brown {
+  color: #ff9900;
+}
+
+.text-yellow {
+  color: #ffff44;
+}
+
+.text-green {
+  color: #99ff00;
+}
+
+.text-lightblue {
+  color: #0099ff;
+}
+
+.text-blue {
+  color: #0000ff;
+}
+
+.text-purple {
+  color: #9900ff;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-dark {
+  color: rgb(26, 30, 44);
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.brown {
+  background-color: #ff9900;
+}
+
+.yellow {
+  background-color: #ffff44;
+}
+
+.green {
+  background-color: #99ff00;
+}
+
+.lightblue {
+  background-color: #0099ff;
+}
+
+.blue {
+  background-color: #0000ff;
+}
+
+.purple {
+  background-color: #9900ff;
+}
+
+.white {
+  background-color: white;
+}
+
+.dark {
+  background-color: rgb(26, 30, 44);
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
