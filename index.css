@@ -24,7 +24,7 @@ select:hover, input:hover, optgroup:hover, textarea:hover {
 button {
   border: 0px;
   /* min-width: 100px; */
-  padding: 4px 11px 4px 11px;
+  padding: 7px 13px 7px 13px;
 }
 
 button:hover {
