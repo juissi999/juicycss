@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Juicycss gallery</title>
     <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
 </head>
 
@@ -13,32 +13,56 @@
     <div class="container">
         <img src="juicycss_aldrich.png" alt="juicycss">
         <br />
-        [Gallery]
-        <h1>h1</h1>
-        <h2>h2</h2>
-        <h3>h3</h3>
         <div class="my-2">
-            <button>button</button>
-            <button class="blue text-white">blue text-white</button>
-            <button class="green">green</button>
-            <button class="lightblue">lightblue</button>
-            <button class="purple text-white">purple text-white</button>
-            <button class="yellow">yellow</button>
-            <button class="brown">brown</button>
-        </div>
-        <div class="my-2">
-            <button class="lightblue mw-1">mw-1</button>
-        </div>
-        <div class="my-2">
-            <button class="lightblue mw-2">mw-2</button>
+            [Gallery]
         </div>
 
         <div class="my-2">
-            Leaf mode
+            Everything in this site is wrapper with div .container. It gives basic responsivity.
+        </div>
+        <div class="my-2">
+            <div class="my-1">
+                Below is a row with 3 divs with col class on them.
+            </div>
+            <div class="row">
+                <div class="col green">
+                    .col with all kinds of content
+                </div>
+                <div class="col text-center lightblue">
+                    another .col with .text-center, more text here with
+                    multiple lines lorem ipsum and so on ...
+                </div>
+                <div class="col brown text-white mr-2 ml-2">
+                    third .col with .mr-2 .ml-2
+                </div>
+            </div>
+        </div>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+
+        <div class="my-2">
+            <button>button</button>
+            <button class="blue text-white">.blue .text-white</button>
+            <button class="green">.green</button>
+            <button class="lightblue">.lightblue</button>
+            <button class="purple text-white">.purple .text-white</button>
+            <button class="yellow">.yellow</button>
+            <button class="brown">.brown</button>
+        </div>
+        <div class="my-2">
+            <button class="lightblue mw-1">.mw-1</button>
+        </div>
+        <div class="my-2">
+            <button class="lightblue mw-2">.mw-2</button>
+        </div>
+
+        <div class="my-2">
+            multiselect
             <select name="leaves" id="leavesselect">
-                <option value="hide">hide</option>
-                <option value="show">show</option>
-                <option value="value">show value</option>
+                <option value="o1">option1</option>
+                <option value="o2">option2</option>
+                <option value="o3">option3</option>
             </select></div>
 
         <div class="my-2">
@@ -47,11 +71,31 @@
         </div>
 
         <div class="my-2">
-            <span class="nonselectable">nonselectable</span>
+            <span class="nonselectable">.nonselectable</span>
         </div>
 
         <div class="my-2">
-            <span class="pointer">pointer</span>
+            <div class="my-2 text-center">
+                .text-center
+            </div>
+            <div class="my-2 text-right">
+                .text-right
+            </div>
+        </div>
+
+        <div class="my-2">
+            <div class="inline-block brown">.inline-block</div>
+            <div class="inline-block lightblue">another .inline-block</div>
+        </div>
+
+        <div class="my-2">
+            <div class="my-1 border">a div with .border</div>
+            <div class="my-1 border br">a div with .border and .br</div>
+            <div class="my-1 border br py-2 px-2">a div with .border and .br and .py-2 .px-2</div>
+        </div>
+
+        <div class="my-2">
+            <span class="pointer">.pointer</span>
         </div>
 
         <div class="my-2"><textarea id="jsonstr" rows="6"></textarea></div>
