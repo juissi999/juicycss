@@ -37,7 +37,7 @@ button:active {
   opacity: 0.7;
 }
 
-textarea:focus {
+textarea:focus, input:focus {
   outline: none;
   border: 1px solid #0099ff;
 }
@@ -64,6 +64,14 @@ textarea:focus {
   flex: 1;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-self: center;
+}
+
 .pointer {
   cursor: pointer;
 }
@@ -72,8 +80,24 @@ textarea:focus {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-right {
   text-align: right;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-normal {
+  font-weight: normal;
 }
 
 .inline-block {
