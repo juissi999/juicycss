@@ -7,6 +7,9 @@
 
 A Minimalistic CSS library. It's not aiming to be everything for everyone but more like something for someone. It gives you tools to build a nice and simple site.
 
+## gallery
+https://juissi999.github.io/juicycss
+
 ## installation
 `npm install juicycss`
 
