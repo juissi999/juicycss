@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juicycss gallery</title>
+    <title>Juicycss</title>
     <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
 </head>
 
 <body>
     <div class="container">
-        <img src="juicycss_aldrich.png" alt="juicycss">
-        <br />
-        <div class="my-2">
-            [Gallery]
+        <div class="row wrap">
+            <img src="juicycss_aldrich.png" alt="juicycss">
+            <div class="my-2 align-center">
+                [Gallery]
+            </div>
         </div>
+
 
         <div class="my-2">
             Everything in this site is wrapper with div .container. It gives basic responsivity.
@@ -27,8 +29,10 @@
             <div class="row">
                 <div class="col green">
                     <div>.col with all kinds of content, two divs below</div>
-                    <div class="inline-block blue text-white">a blue inline-block div</div>
-                    <div class="inline-block purple text-white">a purple inline-block div</div>
+                    <div class="row wrap">
+                        <div class="blue text-white">wrapper row div1</div>
+                        <div class="purple text-white">wrapper row div2</div>
+                    </div>
                     <div class="row">
                         <div class="col yellow">
                             nested row col1
@@ -44,6 +48,43 @@
                 </div>
                 <div class="col brown mr-2 ml-2">
                     third .col with .mr-2 .ml-2
+                </div>
+            </div>
+        </div>
+
+        <div class="my-2">
+            <div class="my-1">
+                Below is a .row with .wrap containing 5 divs with no col classes, just simple divs.
+            </div>
+            <div class="row wrap">
+                <div class="green">
+                    <div>.col with all kinds of content, two divs below</div>
+                    <div class="row wrap">
+                        <div class="blue text-white">wrapper row div1</div>
+                        <div class="purple text-white">wrapper row div2</div>
+                    </div>
+                    <div class="row">
+                        <div class="col yellow">
+                            nested row col1
+                        </div>
+                        <div class="col brown">
+                            nested row col2
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center lightblue text-white">
+                    another .col with .text-center,
+                </div>
+                <div class="brown mr-2 ml-2">
+                    third .col with .mr-2 .ml-2
+                </div>
+                <div class="yellow align-center">
+                    .col with align-center
+                </div>
+                <div class="row yellow">
+                    <div class="lightblue align-center">
+                        .col inside .row with align-center
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,23 +109,29 @@
         </div>
 
         <div class="my-2">
-            multiselect
-            <select name="leaves" id="leavesselect">
-                <option value="o1">option1</option>
-                <option value="o2">option2</option>
-                <option value="o3">option3</option>
-            </select></div>
-
-        <div class="my-2">
-            <input type="checkbox" id="hierarchychkbx">
-            <label for="chkbx">checkbox</label>
-        </div>
-
-        <div class="my-2">
             <span class="nonselectable">.nonselectable</span>
         </div>
 
         <div class="my-2">
+            <span class="pointer">.pointer</span>
+        </div>
+
+        <div class="my-2">
+            <span class="text-bold">.text-bold</span>
+        </div>
+
+        <div class="my-2 text-italic">
+            <span class="text-normal">.text-italic</span>
+        </div>
+
+        <div class="my-2">
+            <span class="text-normal">.text-normal</span>
+        </div>
+
+        <div class="my-2">
+            <div class="my-2 text-left">
+                .text-left
+            </div>
             <div class="my-2 text-center">
                 .text-center
             </div>
@@ -105,10 +152,23 @@
         </div>
 
         <div class="my-2">
-            <span class="pointer">.pointer</span>
+            multiselect
+            <select name="leaves" id="leavesselect">
+                <option value="o1">option1</option>
+                <option value="o2">option2</option>
+                <option value="o3">option3</option>
+            </select></div>
+
+        <div class="my-2">
+            <input type="checkbox" id="chkbx">
+            <label for="chkbx">checkbox</label>
         </div>
 
-        <div class="my-2"><textarea id="jsonstr" rows="6"></textarea></div>
+        <div class="my-2"><textarea rows="6"></textarea></div>
+
+        <div class="my-2"><input></input></div>
+
+        <div class="text-center my-2"><a href="https://www.github.com/juissi999/juicycss/">juicycss@github</a></div>
     </div>
 </body>
 
