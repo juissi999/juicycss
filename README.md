@@ -24,15 +24,16 @@ Add classes to your DOM elements.
 This library adds CSS classes. Currently it has classes
 
 * container
-* row, col
-* pointer
+* flex: row, col, wrap, align-center
 * my-x, ml-x, mr-x (margin): 1,2
-* px-x, py-x:1,2
+* px-x, py-x: 1,2
 * color: red, brown, yellow, green, lightblue, blue, purple, white, dark
 * text-color: same as above
+* text-bold, text-italic, text-normal
+* pointer
 * nonselectable
 * inline-block
 * border
 * br (border-radius)
-* text-center, text-right
+* text-center, text-left, text-right
 * mw-1, mw-2 (min-width)
