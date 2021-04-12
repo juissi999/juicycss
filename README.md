@@ -38,3 +38,4 @@ This library adds CSS classes. Currently it has classes
 * text-center, text-left, text-right
 * mw-1, mw-2 (min-width)
 * max-width-100 (div has max width of 100%)
+* styled buttons, btn-large
