@@ -24,7 +24,7 @@ Add classes to your DOM elements.
 This library adds CSS classes. Currently it has classes
 
 * container
-* flex: row, col, wrap, align-center
+* flex: row, col, wrap, align-center, justify-content-center
 * my-x, ml-x, mr-x (margin)
 * px-x, py-x (padding)
 * color: jred, jbrown, jyellow, jgreen, jblue, jpurple, jwhite, jdark

@@ -97,6 +97,10 @@ textarea:focus, input:focus {
   align-self: center;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
 .pointer {
   cursor: pointer;
 }
@@ -154,6 +158,11 @@ textarea:focus, input:focus {
     margin-bottom: nth($spacings, $i);
   }
 
+  .mx-#{$i} {
+    margin-left: nth($spacings, $i);
+    margin-right: nth($spacings, $i);
+  }
+
   .mr-#{$i} {
     margin-right: nth($spacings, $i);
   }
@@ -162,14 +171,22 @@ textarea:focus, input:focus {
     margin-left: nth($spacings, $i);
   }
 
+  .ma-#{$i} {
+    margin: nth($spacings, $i);
+  }
+
   .px-#{$i} {
-    padding-top: nth($spacings, $i);
-    padding-bottom: nth($spacings, $i);
+    padding-left: nth($spacings, $i);
+    padding-right: nth($spacings, $i);
   }
 
   .py-#{$i} {
     padding-top: nth($spacings, $i);
     padding-bottom: nth($spacings, $i);
+  }
+
+  .pa-#{$i} {
+    padding: nth($spacings, $i);
   }
 }
 
