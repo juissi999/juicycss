@@ -136,30 +136,56 @@ textarea:focus, input:focus {
   margin-bottom: 5px;
 }
 
-.my-2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.mr-1 {
+  margin-right: 5px;
 }
 
 .ml-1 {
   margin-left: 5px;
 }
 
-.ml-2 {
-  margin-left: 10px;
-}
-
-.mr-1 {
-  margin-right: 5px;
+.my-2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .mr-2 {
   margin-right: 10px;
 }
 
+.ml-2 {
+  margin-left: 10px;
+}
+
+.my-3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mr-3 {
+  margin-right: 15px;
+}
+
+.ml-3 {
+  margin-left: 15px;
+}
+
+.my-4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mr-4 {
+  margin-right: 20px;
+}
+
+.ml-4 {
+  margin-left: 20px;
+}
+
 .px-1 {
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .py-1 {
@@ -168,13 +194,33 @@ textarea:focus, input:focus {
 }
 
 .px-2 {
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .py-2 {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.px-3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.py-3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.px-4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.py-4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .text-red {

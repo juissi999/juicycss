@@ -10,8 +10,7 @@ $bordercolor:#cccccc;
 $hoverbordercolor: #616161;
 $textdark:#212529;
 
-$x1: 5px;
-$x2: 10px;
+$spacings: (5px, 10px, 15px, 20px);
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -151,52 +150,34 @@ textarea:focus, input:focus {
   max-width: 100%;
 }
 
-.my-1 {
-  margin-top: $x1;
-  margin-bottom: $x1;
+@for $i from 1 through 4 {
+
+  .my-#{$i} {
+    margin-top: nth($spacings, $i);
+    margin-bottom: nth($spacings, $i);
+  }
+
+  .mr-#{$i} {
+    margin-right: nth($spacings, $i);
+  }
+
+  .ml-#{$i} {
+    margin-left: nth($spacings, $i);
+  }
 }
 
-.my-2 {
-  margin-top: $x2;
-  margin-bottom: $x2;
-}
+@for $i from 1 through 4 {
 
-.ml-1 {
-  margin-left: $x1;
-}
+  .px-#{$i} {
+    padding-top: nth($spacings, $i);
+    padding-bottom: nth($spacings, $i);
+  }
 
-.ml-2 {
-  margin-left: $x2;
+  .py-#{$i} {
+    padding-top: nth($spacings, $i);
+    padding-bottom: nth($spacings, $i);
+  }
 }
-
-.mr-1 {
-  margin-right: $x1;
-}
-
-.mr-2 {
-  margin-right: $x2;
-}
-
-.px-1 {
-  padding-right: $x1;
-  padding-left: $x1;
-}
-
-.py-1 {
-  padding-top: $x1;
-  padding-bottom: $x1;
-}
-
-.px-2 {
-  padding-right: $x2;
-  padding-left: $x2;
-}
-
-.py-2 {
-  padding-top: $x2;
-  padding-bottom: $x2;
-}
-
 
 .text-red {
   color: $red;
