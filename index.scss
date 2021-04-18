@@ -1,46 +1,66 @@
+$red: #ff4444;
+$brown: #ffa144;
+$yellow: #ffff44;
+$green: #8ef744;
+$blue: #4444ff;
+$purple: #ff44ff;
+$white: #ffffff;
+$dark: #1a1e2c;
+$bordercolor:#cccccc;
+$hoverbordercolor: #616161;
+$textdark:#212529;
+
+$x1: 5px;
+$x2: 10px;
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: $textdark;
   text-align: left;
 }
 
 button, select, input, optgroup, textarea {
   font-family: inherit;
   font-size: inherit;
-  border: 1px solid #cccccc;
+  border: 1px solid $bordercolor;
   padding: 5px;
   border-radius: 5px;
 }
 
 select:hover, input:hover, optgroup:hover, textarea:hover {
-  border: 1px solid #616161;
+  border: 1px solid $hoverbordercolor;
 }
 
 button {
   border: 0px;
   /* min-width: 100px; */
   padding: 7px 13px 7px 13px;
-  transition: filter 0.15s ease-in-out;
-}
-button:hover {
-  /* border: 1px solid #616161; */
-  /* padding: 4px; */
-  /* opacity: 0.85; */
-  filter: brightness(75%);
-}
-button:active {
-  /* opacity: 0.7; */
-  filter: brightness(88%);
+  transition: filter .15s ease-in-out;
+
+  &:hover {
+    /* border: 1px solid #616161; */
+    /* padding: 4px; */
+    /* opacity: 0.85; */
+    filter: brightness(75%);
+  }
+
+  &:active {
+    /* opacity: 0.7; */
+    filter: brightness(88%);
+  }
 }
 
+
 .btn-large {
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: .3rem;
 }
 
 textarea:focus, input:focus {
@@ -111,7 +131,7 @@ textarea:focus, input:focus {
 }
 
 .border {
-  border: 1px solid #cccccc;
+  border: 1px solid $bordercolor;
   padding: -1px;
 }
 
@@ -132,114 +152,116 @@ textarea:focus, input:focus {
 }
 
 .my-1 {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: $x1;
+  margin-bottom: $x1;
 }
 
 .my-2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: $x2;
+  margin-bottom: $x2;
 }
 
 .ml-1 {
-  margin-left: 5px;
+  margin-left: $x1;
 }
 
 .ml-2 {
-  margin-left: 10px;
+  margin-left: $x2;
 }
 
 .mr-1 {
-  margin-right: 5px;
+  margin-right: $x1;
 }
 
 .mr-2 {
-  margin-right: 10px;
+  margin-right: $x2;
 }
 
 .px-1 {
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: $x1;
+  padding-left: $x1;
 }
 
 .py-1 {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: $x1;
+  padding-bottom: $x1;
 }
 
 .px-2 {
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: $x2;
+  padding-left: $x2;
 }
 
 .py-2 {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: $x2;
+  padding-bottom: $x2;
 }
 
+
 .text-red {
-  color: #ff4444;
+  color: $red;
 }
 
 .text-brown {
-  color: #ffa144;
+  color: $brown;
 }
 
 .text-yellow {
-  color: #ffff44;
+  color: $yellow;
 }
 
 .text-green {
-  color: #8ef744;
+  color: $green;
 }
 
 .text-blue {
-  color: #4444ff;
+  color: $blue;
 }
 
 .text-purple {
-  color: #ff44ff;
+  color: $purple;
 }
 
 .text-white {
-  color: #ffffff;
+  color: $white;
 }
 
 .text-dark {
-  color: #1a1e2c;
+  color: $dark;
 }
 
 .red {
-  background-color: #ff4444;
+  background-color: $red;
 }
 
 .brown {
-  background-color: #ffa144;
+  background-color: $brown;
 }
 
 .yellow {
-  background-color: #ffff44;
+  background-color: $yellow;
 }
 
 .green {
-  background-color: #8ef744;
+  background-color: $green;
 }
 
 .blue {
-  background-color: #4444ff;
+  background-color: $blue;
 }
 
 .purple {
-  background-color: #ff44ff;
+  background-color: $purple;
 }
 
 .white {
-  background-color: #ffffff;
+  background-color: $white;
 }
 
 .dark {
-  background-color: #1a1e2c;
+  background-color: $dark;
 }
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -247,24 +269,28 @@ textarea:focus, input:focus {
     width: 100%;
   }
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .container {
     max-width: 540px;
   }
 }
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 720px;
   }
 }
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .container {
     max-width: 960px;
   }
 }
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .container {
