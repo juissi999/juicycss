@@ -6,6 +6,7 @@
     "scripts": {
         "build": "sass --no-source-map src/index.scss index.css",
         "watch": "sass --no-source-map --watch src/index.scss index.css",
+        "patch": "npm run build && npm version patch",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
