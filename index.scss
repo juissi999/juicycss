@@ -40,14 +40,10 @@ select:hover, input:hover, optgroup:hover, textarea:hover {
 
 button {
   border: 0px;
-  /* min-width: 100px; */
   padding: 7px 13px 7px 13px;
   transition: filter .15s ease-in-out;
 
   &:hover {
-    /* border: 1px solid #616161; */
-    /* padding: 4px; */
-    /* opacity: 0.85; */
     filter: brightness(75%);
   }
 
@@ -66,7 +62,7 @@ button {
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #0099ff;
+  border: 1px solid $dark;
 }
 
 .nonselectable {
