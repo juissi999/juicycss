@@ -227,83 +227,83 @@ textarea:focus, input:focus {
   min-width: 150px;
 }
 
-.text-red {
-  /* text of color red*/
+.text-jred {
+  /* text of color jred*/
   color: #ff4444;
 }
 
-.red {
-  /* background of color red*/
+.jred {
+  /* background of color jred*/
   background-color: #ff4444;
 }
 
-.text-brown {
-  /* text of color brown*/
+.text-jbrown {
+  /* text of color jbrown*/
   color: #ffa144;
 }
 
-.brown {
-  /* background of color brown*/
+.jbrown {
+  /* background of color jbrown*/
   background-color: #ffa144;
 }
 
-.text-yellow {
-  /* text of color yellow*/
+.text-jyellow {
+  /* text of color jyellow*/
   color: #ffff44;
 }
 
-.yellow {
-  /* background of color yellow*/
+.jyellow {
+  /* background of color jyellow*/
   background-color: #ffff44;
 }
 
-.text-green {
-  /* text of color green*/
+.text-jgreen {
+  /* text of color jgreen*/
   color: #8ef744;
 }
 
-.green {
-  /* background of color green*/
+.jgreen {
+  /* background of color jgreen*/
   background-color: #8ef744;
 }
 
-.text-blue {
-  /* text of color blue*/
+.text-jblue {
+  /* text of color jblue*/
   color: #4444ff;
 }
 
-.blue {
-  /* background of color blue*/
+.jblue {
+  /* background of color jblue*/
   background-color: #4444ff;
 }
 
-.text-purple {
-  /* text of color purple*/
+.text-jpurple {
+  /* text of color jpurple*/
   color: #ff44ff;
 }
 
-.purple {
-  /* background of color purple*/
+.jpurple {
+  /* background of color jpurple*/
   background-color: #ff44ff;
 }
 
-.text-white {
-  /* text of color white*/
+.text-jwhite {
+  /* text of color jwhite*/
   color: #ffffff;
 }
 
-.white {
-  /* background of color white*/
+.jwhite {
+  /* background of color jwhite*/
   background-color: #ffffff;
 }
 
-.text-dark {
-  /* text of color dark*/
+.text-jdark {
+  /* text of color jdark*/
   color: #1a1e2c;
 }
 
-.dark {
-  /* background of color dark*/
+.jdark {
+  /* background of color jdark*/
   background-color: #1a1e2c;
 }
 

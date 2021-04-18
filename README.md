@@ -25,9 +25,9 @@ This library adds CSS classes. Currently it has classes
 
 * container
 * flex: row, col, wrap, align-center
-* my-x, ml-x, mr-x (margin): 1,2
-* px-x, py-x: 1,2
-* color: red, brown, yellow, green, lightblue, blue, purple, white, dark
+* my-x, ml-x, mr-x (margin)
+* px-x, py-x (padding)
+* color: jred, jbrown, jyellow, jgreen, jblue, jpurple, jwhite, jdark
 * text-color: same as above
 * text-bold, text-italic, text-normal
 * pointer
@@ -36,6 +36,6 @@ This library adds CSS classes. Currently it has classes
 * border
 * br (border-radius)
 * text-center, text-left, text-right
-* mw-1, mw-2 (min-width)
+* mw-x (min-width)
 * max-width-100 (div has max width of 100%)
 * styled buttons, btn-large
