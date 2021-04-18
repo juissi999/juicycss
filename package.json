@@ -4,8 +4,8 @@
     "description": "A minimalistic CSS library",
     "main": "index.css",
     "scripts": {
-        "build": "sass --no-source-map index.scss index.css",
-        "watch": "sass --no-source-map --watch index.scss index.css",
+        "build": "sass --no-source-map src/index.scss index.css",
+        "watch": "sass --no-source-map --watch src/index.scss index.css",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
