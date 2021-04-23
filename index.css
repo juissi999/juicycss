@@ -70,10 +70,6 @@ textarea:focus, input:focus {
   flex-wrap: wrap;
 }
 
-.align-center {
-  align-self: center;
-}
-
 .justify-content-center {
   justify-content: center;
 }
@@ -121,6 +117,30 @@ textarea:focus, input:focus {
 
 .max-width-100 {
   max-width: 100%;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.align-items-flex-start {
+  align-items: flex-start;
+}
+
+.align-items-flex-end {
+  align-items: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+.align-items-baseline {
+  align-items: baseline;
 }
 
 .mw-1 {
