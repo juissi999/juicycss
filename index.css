@@ -123,11 +123,11 @@ textarea:focus, input:focus {
   align-self: center;
 }
 
-.align-items-flex-start {
+.align-items-start {
   align-items: flex-start;
 }
 
-.align-items-flex-end {
+.align-items-end {
   align-items: flex-end;
 }
 
