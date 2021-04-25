@@ -161,41 +161,37 @@ textarea:focus, input:focus {
   }
 }
 
-@for $i from 1 through 4 {
-  .my-#{$i} {
-    margin-top: nth($spacings, $i);
-    margin-bottom: nth($spacings, $i);
-  }
+@each $aname, $a in (m:margin, p:padding) {
+  @for $j from 1 through 4 {
+    .#{$aname}a-#{$j} {
+      #{$a}: nth($spacings, $j);
+    }
 
-  .mx-#{$i} {
-    margin-left: nth($spacings, $i);
-    margin-right: nth($spacings, $i);
-  }
+    .#{$aname}y-#{$j} {
+      #{$a}-top: nth($spacings, $j);
+      #{$a}-bottom: nth($spacings, $j);
+    }
 
-  .mr-#{$i} {
-    margin-right: nth($spacings, $i);
-  }
+    .#{$aname}x-#{$j} {
+      #{$a}-left: nth($spacings, $j);
+      #{$a}-right: nth($spacings, $j);
+    }
 
-  .ml-#{$i} {
-    margin-left: nth($spacings, $i);
-  }
+    .#{$aname}r-#{$j} {
+      #{$a}-right: nth($spacings, $j);
+    }
 
-  .ma-#{$i} {
-    margin: nth($spacings, $i);
-  }
+    .#{$aname}l-#{$j} {
+      #{$a}-left: nth($spacings, $j);
+    }
 
-  .px-#{$i} {
-    padding-left: nth($spacings, $i);
-    padding-right: nth($spacings, $i);
-  }
+    .#{$aname}t-#{$j} {
+      #{$a}-top: nth($spacings, $j);
+    }
 
-  .py-#{$i} {
-    padding-top: nth($spacings, $i);
-    padding-bottom: nth($spacings, $i);
-  }
-
-  .pa-#{$i} {
-    padding: nth($spacings, $i);
+    .#{$aname}b-#{$j} {
+      #{$a}-bottom: nth($spacings, $j);
+    }
   }
 }
 
