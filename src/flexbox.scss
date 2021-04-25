@@ -13,17 +13,13 @@ $alignings: (start:flex-start, end:flex-end, center:center, stretch:stretch,
   flex-wrap: wrap;
 }
 
-.justify-content-center {
-  justify-content: center;
-}
-
 .align-center {
   align-self: center;
 }
 
 @each $alignmentname, $alignment in $alignings {
-  .align-items-#{$alignmentname} {
-    align-items: #{$alignment}
+  .justify-content-#{$alignmentname} {
+    justify-content: #{$alignment}
   }
 }
 
