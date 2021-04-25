@@ -1,0 +1,35 @@
+$spacings: (5px, 10px, 15px, 20px);
+
+@each $aname, $a in (m:margin, p:padding) {
+  @for $j from 1 through 4 {
+    .#{$aname}a-#{$j} {
+      #{$a}: nth($spacings, $j);
+    }
+
+    .#{$aname}y-#{$j} {
+      #{$a}-top: nth($spacings, $j);
+      #{$a}-bottom: nth($spacings, $j);
+    }
+
+    .#{$aname}x-#{$j} {
+      #{$a}-left: nth($spacings, $j);
+      #{$a}-right: nth($spacings, $j);
+    }
+
+    .#{$aname}r-#{$j} {
+      #{$a}-right: nth($spacings, $j);
+    }
+
+    .#{$aname}l-#{$j} {
+      #{$a}-left: nth($spacings, $j);
+    }
+
+    .#{$aname}t-#{$j} {
+      #{$a}-top: nth($spacings, $j);
+    }
+
+    .#{$aname}b-#{$j} {
+      #{$a}-bottom: nth($spacings, $j);
+    }
+  }
+}
