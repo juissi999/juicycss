@@ -56,14 +56,6 @@
   justify-content: center;
 }
 
-.justify-content-stretch {
-  justify-content: stretch;
-}
-
-.justify-content-baseline {
-  justify-content: baseline;
-}
-
 .align-items-start {
   align-items: flex-start;
 }

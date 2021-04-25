@@ -1,6 +1,8 @@
 $alignings: (start:flex-start, end:flex-end, center:center, stretch:stretch,
   baseline:baseline);
 
+$justifys: (start:flex-start, end:flex-end, center:center);
+
 .row {
   display: flex;
 }
@@ -17,9 +19,9 @@ $alignings: (start:flex-start, end:flex-end, center:center, stretch:stretch,
   align-self: center;
 }
 
-@each $alignmentname, $alignment in $alignings {
-  .justify-content-#{$alignmentname} {
-    justify-content: #{$alignment}
+@each $justifyname, $justify in $justifys {
+  .justify-content-#{$justifyname} {
+    justify-content: #{$justify}
   }
 }
 
