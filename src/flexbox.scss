@@ -9,6 +9,8 @@ $justifys: (start:flex-start, end:flex-end, center:center);
 
 .col {
   flex: 1;
+  flex-grow: 1;
+  max-width: 100%;
 }
 
 .wrap {
@@ -17,6 +19,10 @@ $justifys: (start:flex-start, end:flex-end, center:center);
 
 .align-center {
   align-self: center;
+}
+
+.grow-1 {
+  flex-grow: 1;
 }
 
 @each $justifyname, $justify in $justifys {

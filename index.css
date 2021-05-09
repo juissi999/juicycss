@@ -34,6 +34,8 @@
 
 .col {
   flex: 1;
+  flex-grow: 1;
+  max-width: 100%;
 }
 
 .wrap {
@@ -42,6 +44,10 @@
 
 .align-center {
   align-self: center;
+}
+
+.grow-1 {
+  flex-grow: 1;
 }
 
 .justify-content-start {
@@ -316,6 +322,10 @@
   padding-bottom: 20px;
 }
 
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
@@ -323,6 +333,12 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 button, select, input, optgroup, textarea, ::file-selector-button {
@@ -359,9 +375,22 @@ button:active {
   background-color: #b5b5b5;
 }
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
 .btn-large {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+.btn-small {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
   line-height: 1.5;
   border-radius: 5px;
 }
@@ -424,6 +453,10 @@ textarea:focus, input:focus {
 
 .br {
   border-radius: 5px;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 .max-width-100 {
